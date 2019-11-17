@@ -182,7 +182,7 @@
 					  <If Condition="not IsOnMap(129)">
 						  <GetTo ZoneId="129" XYZ="-84.08636, 18.60033, -12.41393" /> <!-- Limsa Lominsa Lower Decks -->
 					  </If>
-					  <NoCombatMoveTo Name="Syneyhil" XYZ="-246.6011, 16.2, 37.12512" />
+					  <NoCombatMoveTo Name="Syneyhil" XYZ="-246.2696, 16.2, 40.08407" />
 					  <BuyItem ItemId="2585" ItemCount="200" DialogOption="2" InteractDistance="3.0" NpcId="1003254" XYZ="-246.6011, 16.2, 37.12512" />
 				  </If>
 				  <If Condition="not IsOnMap(129)">
@@ -264,7 +264,7 @@
 							  <!-- Pill Bug - 2587 -->
 
 							  <If Condition="not HasAtLeast(2587,99)">
-								  <MoveTo Name="Syneyhil" XYZ="-246.6011, 16.2, 37.12512" />
+								  <MoveTo Name="Syneyhil" XYZ="-246.2696, 16.2, 40.08407" />
 								  <BuyItem ItemId="2587" ItemCount="99" DialogOption="2" NpcId="1003254" XYZ="-246.6011, 16.2, 37.12512" />
 							  </If>
 							  <Fish Mooch="0" Bait="Pill Bug" MinFish="10" MaxFish="15" Condition="not NqHasAtLeast(4874,3)">
@@ -309,7 +309,7 @@
 								  <If Condition="not IsOnMap(129)">
 									  <GetTo ZoneId="129" XYZ="-84.08636, 18.60033, -12.41393" /> <!-- Limsa Lominsa Lower Decks -->
 								  </If>
-								  <NoCombatMoveTo Name="Syneyhil" XYZ="-246.6011, 16.2, 37.12512" />
+								  <NoCombatMoveTo Name="Syneyhil" XYZ="-246.2696, 16.2, 40.08407" />
 								  <BuyItem ItemId="2586" ItemCount="99" DialogOption="2" NpcId="1003254" XYZ="-246.6011, 16.2, 37.12512" />
 							  </If>
 							  <If Condition="not IsOnMap(134)">
@@ -686,7 +686,7 @@
 								  <If Condition="not IsOnMap(129)">
 									  <GetTo ZoneId="129" XYZ="-84.08636, 18.60033, -12.41393" /> <!-- Limsa Lominsa Lower Decks -->
 								  </If>
-								  <NoCombatMoveTo Name="Syneyhil" XYZ="-246.6011, 16.2, 37.12512" />
+								  <NoCombatMoveTo Name="Syneyhil" XYZ="-246.2696, 16.2, 40.08407" />
 								  <BuyItem ItemId="2586" ItemCount="50" DialogOption="2" NpcId="1003254" XYZ="-246.6011, 16.2, 37.12512" />
 							  </If>
 							  <If Condition="not IsOnMap(154)">
